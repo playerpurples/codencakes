@@ -1,0 +1,112 @@
+h1 {
+    color: #c1730e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+h2 {
+    color: #c1730e;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #1b1e18;
+    color: rgb(255, 255, 255);
+    font-family: "Roberto",Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:  0px;
+    margin-right: 0px;
+
+}
+
+
+
+p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:  250px;
+    margin-right: 250px;
+
+
+
+}
+
+#navbar {
+    /* border: solid 2px red; */
+    display: Flex;
+    justify-content: space-evenly;
+    
+}
+
+.navbutton {
+    /* border: solid blue 1px; */
+    background-color: #4d693a;
+    /* border: radius 20px; */
+    padding: 20px 20px 20px 20px;
+}
+
+
+#footer {
+    /* border: solid 2px red; */
+    display: Flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+
+ div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 200%;
+}
+
+
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    font-size: xx-large;
+}
+
+a {
+    /* text-decoration:none; */
+    color: #fffdfa;
+ }
+
+
+#under {
+
+    text-decoration: none;
+}
+
+th {
+    text-align: right; 
+  }
